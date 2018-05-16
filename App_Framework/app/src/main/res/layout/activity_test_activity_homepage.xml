@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_test_weakReference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试 weakReference和activityManager"
+        android:background="@drawable/button_secondpage_selector"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_test_weakReference2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_secondpage_selector"
+        android:text="显示weakReference"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_test_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_secondpage_selector"
+        android:text="测试 broadcast"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_test_bottom_popwindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_secondpage_selector"
+        android:text="测试底部弹出框"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>

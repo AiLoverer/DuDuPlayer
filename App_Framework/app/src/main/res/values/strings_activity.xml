@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_home_page">主页</string>
+    <string name="activity_test_activity_homepage">测试Activity功能主页</string>
+    <string name="activity_test_activity_A">测试Activity A</string>
+    <string name="activity_test_activity_B">测试Activity B</string>
+    <string name="activity_test_guide">测试蒙版</string>
+    <string name="activity_test_dialog">测试dialog</string>
+    <string name="activity_test_db">测试数据库</string>
+    <string name="activity_test_cache">测试Cache</string>
+    <string name="activity_test_webview">测试webview</string>
+    <string name="activity_test_download">测试断点续传</string>
+    <string name="activity_test_utils">测试utils</string>
+    <string name="activity_test_file_utils">测试file utils</string>
+    <string name="activity_test_image_utils">测试image utils</string>
+    <string name="activity_test_common_utils">测试common utils</string>
+    <string name="activity_test_net">测试网络请求</string>
+    <string name="activity_test_volley">测试volley请求</string>
+    <string name="activity_test_imageloader">测试图片加载</string>
+    <string name="activity_test_widget">测试widget</string>
+    <string name="activity_test_gridLinearLayout">测试grid layout</string>
+    <string name="activity_test_flow_layout">测试流式布局</string>
+    <string name="activity_test_opengl">测试OpenGL ES</string>
+    <string name="activity_test_opengl_sound">测试OpenGL ES 音效</string>
+</resources>

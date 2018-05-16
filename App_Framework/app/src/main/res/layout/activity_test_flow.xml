@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_change_orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="变换布局方向"/>
+    <ScrollView
+        android:id="@+id/sv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.libcore_ui.widget.FlowLayout
+            android:id="@+id/fl_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            app:horizontalSpacing="10dp"
+            app:verticalSpacing="10dp"
+            app:orientation="horizontal"
+            app:childGravity="center">
+        </com.example.libcore_ui.widget.FlowLayout>
+    </ScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hsv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <com.example.libcore_ui.widget.FlowLayout
+            android:id="@+id/fl_vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            app:horizontalSpacing="10dp"
+            app:verticalSpacing="10dp"
+            app:orientation="vertical"
+            app:childGravity="center">
+        </com.example.libcore_ui.widget.FlowLayout>
+    </HorizontalScrollView>
+</LinearLayout>

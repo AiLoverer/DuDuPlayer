@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.libcore_ui">
+
+    <application>
+            <activity android:name=".web.webactivity.WebActivity"
+                android:hardwareAccelerated="true"
+                android:configChanges="orientation|screenSize">
+                <!--<intent-filter>-->
+                    <!--<data android:scheme="http"/>-->
+                    <!--<action android:name="android.intent.action.VIEW"/>-->
+                    <!--<category android:name="android.intent.category.BROWSABLE"/>-->
+                    <!--<category android:name="android.intent.category.DEFAULT"/>-->
+                <!--</intent-filter>-->
+            </activity>
+    </application>
+</manifest>

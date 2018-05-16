@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_weight="1">
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/gray"/>
+
+    <!-- 不要问我为什么要加上1dp marginBottom，要不然和添加view的底部按钮对不齐 -->
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:textColor="@color/light_blue"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:text="确定"/>
+</LinearLayout>
