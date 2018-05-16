@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>theme/MyWindow.qml</file>
+        <file>theme/ButtonStyle.qml</file>
+        <file>theme/MenuStyle.qml</file>
+        <file>theme/TextAreaStyle.qml</file>
+        <file>theme/TextFieldStyle.qml</file>
+        <file>theme/ComboBoxStyle.qml</file>
+        <file>theme/GroupBoxStyle.qml</file>
+        <file>theme/HeaderItem.qml</file>
+        <file>theme/CheckBoxStyle.qml</file>
+        <file>theme/RadioButtonStyle.qml</file>
+        <file>theme/BusyIndicatorStyle.qml</file>
+        <file>theme/CalendarStyle.qml</file>
+        <file>theme/ProgressBarStyle.qml</file>
+        <file>theme/ScrollViewStyle.qml</file>
+        <file>theme/SliderStyle.qml</file>
+        <file>theme/SpinBoxStyle.qml</file>
+        <file>theme/StatusBarStyle.qml</file>
+        <file>theme/SwitchStyle.qml</file>
+        <file>theme/TableViewStyle.qml</file>
+        <file>theme/TabViewStyle.qml</file>
+        <file>theme/ToolBarStyle.qml</file>
+        <file>theme/ToolButtonStyle.qml</file>
+    </qresource>
+</RCC>
